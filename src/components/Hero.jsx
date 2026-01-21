@@ -17,7 +17,7 @@ const Hero = () => {
         <h1 className='text-4xl md:text-6xl font-bold mb-4 '>
           Hi, I'm <span className='text-purple'>Rohit Gupta</span>
         </h1>
-        <h2 className='text-2xl md:text-4xl font-semibold mb-6 typewriter'>Full Stack Developer</h2>
+        <h2 className='text-2xl md:text-4xl font-semibold mb-6 typewriter'>Full Stack Web Developer</h2>
         <p className='text-lg text-gray-300 mb-8'>I create stunning web experiences with modern technologies and innovative design.</p>
         <div className='flex space-x-4'>
           <a href="#projects" className='px-6 py-3 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300 '>View Work</a>
@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
         </div>
         {/* right side image */}
-        <div className='md:w-1/2 flex justify-center '>
+      <div className='md:w-1/2 flex justify-center '>
         <div className='relative w-64 h-64 md:w-80 md:h-80'>
           <div className='absolute inset-0 rounded-full bg-gradient-to-r from-purple to-pink  opacity-70'>
             <motion.img 
@@ -40,8 +40,8 @@ const Hero = () => {
             src={assets.profileImg} alt='Profile'/>
           </div>
         </div>
-        </div>
       </div>
+    </div>
     </motion.div>
   )
 }

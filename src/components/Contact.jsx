@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { FaDribbble, FaEnvelope, FaGithub, FaLinkedin, FaMapMarkedAlt, FaPhone, FaTwitter } from 'react-icons/fa'
+import { FaDribbble, FaEnvelope, FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaMapMarkedAlt, FaPhone, FaTwitter } from 'react-icons/fa'
 
 const Contact = () => {
   return (
@@ -58,7 +58,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className='text-lg font-semibold mb-2'>Location</h3>
-                <p className='text-gray-400'>New Delhi, Ashok Nagr</p>
+                <p className='text-gray-400'>Kolkata, West Bengal</p>
               </div>
             </div>
 
@@ -85,20 +85,20 @@ const Contact = () => {
             <div className='pt-4'>
               <h3 className='text-lg font-semibold mb-4'>Follow Me</h3>
               <div className='flex space-x-4'>
-                <a href='#' className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-purple hover:bg-purple hover:text-white transition duration-300'>
+                <a href='https://github.com/GuptaRohit2001' target='_blank' className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-black-600 hover:bg-black hover:text-white transition duration-300'>
                   <FaGithub/>
                 </a>
 
-                <a href='#' className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-blue-400 hover:bg-blue-400 hover:text-white transition duration-300'>
+                <a href='https://www.linkedin.com/in/rohit-gupta-a6a53222a/' target='_blank' className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-blue-600 hover:bg-blue-600 hover:text-white transition duration-300'>
                   <FaLinkedin/>
                 </a>
 
-                <a href='#' className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-blue-400 hover:bg-blue-400 hover:text-white transition duration-300'>
-                  <FaTwitter/>
+                <a href='https://www.instagram.com/rohit_gupta_0810/' target='_blank' className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-pink hover:bg-pink hover:text-white transition duration-300'>
+                  <FaInstagram/>
                 </a>
 
-                <a href='#' className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-pink hover:bg-pink hover:text-white transition duration-300'>
-                  <FaDribbble/>
+                <a href='https://www.facebook.com/profile.php?id=100026654993111' target='_blank' className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-blue-400 hover:bg-blue-400 hover:text-white transition duration-300'>
+                  <FaFacebook/>
                 </a>
 
               </div>

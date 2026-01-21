@@ -12,10 +12,10 @@ const Work = () => {
     className='py-20 bg-dark-100'
     >
       <div className='container mx-auto px-6'>
-        <h2 className='text-3xl font-bold text-center mb-4 '>Work
-          <span className='text-purple'> Experience</span>
+        <h2 className='text-3xl font-bold text-center mb-4 '>My
+          <span className='text-purple'> Education</span>
         </h2>
-        <p className='text-gray-400 text-center max-w-2xl mx-auto mb-16 '>My professional journey so far</p>
+        <p className='text-gray-400 text-center max-w-2xl mx-auto mb-16 '>My educational journey so far</p>
         <div className='max-w-3xl mx-auto '>
           <div className='space-y-12'>
             {

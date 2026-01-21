@@ -39,7 +39,7 @@ const About = () => {
             <div className='rounded-2xl p-8'>
               <h3 className='text-2xl font-semibold mb-6'>My Journey</h3>
 
-              <p className='text-gray-300 mb-6'>I'm a passionate full stack developer with 5 years of experience creating digital solutions for businesses around the world. My journey started with basic HTML/CSS websites and has evolved into building complex web applications with modern frameworks.</p>
+              <p className='text-gray-300 mb-6'>I am a passionate Full Stack Web Developer creating digital solutions for businesses worldwide. My journey began with building websites using HTML, CSS, and JavaScript and has progressed to developing complex web applications with modern frameworks. I hold a B.Sc. (Hons.) in Mathematics from the University of Calcutta. After my graduation, I secured Rank 1 in the JECA exam, a prestigious state level MCA entrance examination in West Bengal. I am currently pursuing my MCA at Jadavpur University, further enhancing my expertise in software development and modern computing technologies.</p>
               <p className='text-gray-300 mb-12'>
                 When I'm not coding, you can find me exploring new technologies, contributing to open source projects, or sharing my knowledge through tech blogs and tutorials. I believe in continuous learning and pushing the boundaries of what's possible on the web.
               </p>

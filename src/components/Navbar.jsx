@@ -10,7 +10,7 @@ const Navbar = () => {
       <div>
         <a href='#' className='text-3xl font-bold text-white'>
           Rohit
-          <span className='text-purple'>Gupta</span>
+          <span className='text-purple'> Gupta</span>
           <div className='w-4 h-4 bg-purple rounded-full'></div>
         </a>
       </div>
@@ -37,7 +37,7 @@ const Navbar = () => {
           </a>
 
           <a href='#experience' className='relative text-white/80 transition duration-300 hover:text-purple group'>
-          <span>Experience</span>
+          <span>Education</span>
           <span className='absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full'></span>
           </a>
 
