@@ -5,7 +5,7 @@ import profileImg from '../assets/profile.avif';
 import projectImg1 from '../assets/project1.avif';
 import projectImg2 from '../assets/project2.avif';
 import projectImg5 from '../assets/project5.avif';
-
+import projectImg3 from '../assets/project3.avif';
 
 
 export const assets = {
@@ -99,6 +99,15 @@ export const projects = [
     demo: "https://smart-dairy-manager.vercel.app/login",
     code: "https://github.com/GuptaRohit2001/dairy-management-system",
   },
+    {
+    title: "Sun Drift",
+    description: "A weather application built to provide real-time forecasts and climate insights, displaying current conditions, temperature trends, and location-based updates.",
+    image: projectImg3,
+    tech: ["HTML","CSS","JavaScript"],
+    icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
+    demo: "https://sun-drift.vercel.app/",
+    code: "https://github.com/GuptaRohit2001/SunDrift",
+  }
 ];
 
 
