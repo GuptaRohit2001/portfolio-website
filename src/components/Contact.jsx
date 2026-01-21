@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { FaDribbble, FaEnvelope, FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaMapMarkedAlt, FaPhone, FaTwitter } from 'react-icons/fa'
+import { FaDribbble, FaEnvelope, FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaMapMarkedAlt, FaPhone } from 'react-icons/fa'
 
 const Contact = () => {
   return (

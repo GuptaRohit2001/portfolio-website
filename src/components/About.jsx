@@ -33,7 +33,7 @@ const About = () => {
           <motion.div 
           initial={{opacity:0, y:50}}
           whileInView={{opacity:1, y:0}}
-          transition={{duration: 0.99, ease: 'easeOut'}}
+          transition={{duration: 1, ease: 'easeOut'}}
           viewport={{once: false, amount:0.2}}
           className='md:w-1/2'>
             <div className='rounded-2xl p-8'>
